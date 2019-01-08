@@ -1,0 +1,209 @@
+body {
+  -webkit-print-color-adjust: exact !important;
+}
+
+a {
+  color: #2d9cdb;
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+}
+
+.education .dates,
+.work .dates {
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+}
+
+.tag-list li {
+  display: inline-block;
+  background-color: #7d7d7d;
+  color: white;
+  padding: 0px 8px;
+  border-radius: 25px;
+  font-size: 10px;
+  margin: 0px 2px;
+}
+
+section {
+  margin-bottom: 24px;
+  width: 100%;
+  position: relative;
+}
+
+.section-title {
+  font-size: 18px;
+  border-bottom: 1px solid #cfcfcf;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-title img {
+  width: 25px;
+  margin-right: 8px;
+}
+
+section h4:first-of-type {
+  margin-top: 8px;
+}
+section h4 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.body-wrapper {
+  display: flex;
+  font-family: avenir-book, AvenirNext-Regular, AppleSDGothicNeo-Medium,
+    Helvetica, Arial, Sans-serif;
+}
+
+.left-section {
+  width: 260px;
+  padding: 0px 32px;
+  font-family: ;
+}
+
+.right-section {
+  padding: 0px 32px;
+  margin-top: 32px;
+  /*  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;*/
+}
+
+.intro {
+  height: 200px;
+}
+
+.intro .circle {
+  width: 490px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  left: -272px;
+  top: -216px;
+  background-color: #ececec;
+  transform: rotate(30deg);
+}
+
+.intro h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.intro h2 {
+  font-size: 18px;
+}
+
+.intro .contact p {
+  margin: 0px;
+}
+
+.skills h4 {
+  border-bottom: 1px dashed #cfcfcf;
+  color: #7d7d7d;
+  margin-bottom: 4px;
+}
+
+.skills ul {
+  padding: 0px;
+  font-size: 14px;
+}
+
+.skills ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills ul li .star-filled {
+  width: 10px;
+  margin: 0px 2px;
+  opacity: 0.6;
+}
+
+.skills ul li .stars {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.education h4 {
+  margin-bottom: 0px;
+}
+
+.education h4 small {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 12px;
+  color: #7d7d7d;
+}
+
+.education p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.education p i {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.project h4 {
+  font-weight: 400;
+}
+
+.project ul li p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.project ul li p strong {
+  font-size: 16px;
+}
+
+.project a {
+  font-size: 14px;
+}
+
+.work h4 {
+  margin-bottom: 0px;
+}
+
+.work .company {
+  font-style: italic;
+}
+
+.work ul {
+  margin: 0px;
+  list-style: disc;
+}
+.work p {
+  margin: 0px;
+}
+.work .dates {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+}
+.work .work-detail {
+  font-size: 14px;
+}
+.work .work-tech {
+  font-size: 14px;
+  font-style: italic;
+}
+
+@page {
+  size: auto;
+  margin: 0;
+}

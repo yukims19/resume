@@ -13,9 +13,18 @@ ul {
 
 .education .dates,
 .work .dates {
-  font-size: 12px;
+  font-size: 11px;
   font-style: italic;
   text-align: right;
+}
+
+.tag-list {
+  /*  align-items: flex-start;
+  display: flex;
+  width: 480px;
+  flex-wrap: wrap;*/
+  margin-top: -2px;
+  margin-bottom: 4px;
 }
 
 .tag-list li {
@@ -69,7 +78,7 @@ section h4 {
 
 .right-section {
   padding: 0px 32px;
-  margin-top: 32px;
+  margin-top: 8px;
   /*  display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,7 +173,7 @@ section h4 {
 
 .project ul li p {
   margin: 0px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .project ul li p strong {
@@ -175,12 +184,18 @@ section h4 {
   font-size: 14px;
 }
 
+.work-wrapper {
+  position: relative;
+}
+
 .work h4 {
   margin-bottom: 0px;
 }
 
 .work .company {
   font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .work ul {
@@ -194,9 +209,10 @@ section h4 {
   width: 100%;
   position: absolute;
   text-align: right;
+  top: 4px;
 }
 .work .work-detail {
-  font-size: 14px;
+  font-size: 13px;
 }
 .work .work-tech {
   font-size: 14px;

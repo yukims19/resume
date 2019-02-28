@@ -72,12 +72,11 @@ section h4 {
 
 .left-section {
   width: 260px;
-  padding: 0px 32px;
-  font-family: ;
+  padding: 0px 28px;
 }
 
 .right-section {
-  padding: 0px 32px;
+  padding: 0px 28px;
   margin-top: 8px;
   /*  display: flex;
   flex-direction: column;
@@ -86,12 +85,13 @@ section h4 {
 }
 
 .intro {
-  height: 200px;
+  height: 232px;
 }
+
 
 .intro .circle {
   width: 490px;
-  height: 400px;
+  height: 460px;
   border-radius: 50%;
   position: absolute;
   z-index: -1;
@@ -108,7 +108,12 @@ section h4 {
 }
 
 .intro h2 {
-  font-size: 18px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.intro p{
+    white-space: nowrap;
 }
 
 .intro .contact p {
